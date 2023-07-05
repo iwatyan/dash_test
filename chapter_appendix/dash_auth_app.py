@@ -13,6 +13,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 # ➋ ユーザ名、パスワードを設定する。
 auth = dash_auth.BasicAuth(app, pass_pair)
 
+
 app.layout = html.H1("Plotly Dash Bookへようこそ！", style={"textAlign": "center"})
 
 if __name__ == "__main__":
